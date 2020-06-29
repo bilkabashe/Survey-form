@@ -1,0 +1,50 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<h1 id="title">Business Feedback Survey Form</h1>
+
+<p id="description">Thank you for taking the time to help us improve our services.</p>
+
+<div id="body">
+<form id="survey-form">
+  
+  <label id="name-label" for="name">
+  <p>Name:</p>
+  </label>
+  <input id="name" type="text" placeholder="Enter Your Name" required>
+  
+  <label id="email-label" for="email">
+  <p>Email:</p>
+  </label>
+  <input id="email" type="email" placeholder="Enter Your Email" required>
+  
+  <label id="number-label" for="number">
+  <p>Age(Optional):</p>
+  </label>
+  <input id="number" type="number" placeholder="Enter Your Age" min="12" max="50">
+  
+  <p>Would you recommend our business to a friend?</p>
+  <select id="dropdown">
+    
+    <option value="default">Nothing</option>
+    <option value="Yes">Yes</option>
+    <option value="No">No</option>
+    <option value="Maybe">Maybe</option>
+    
+  </select>
+  
+  <p>What do you like the most about our business?</p>
+  <input type="radio" name="location" value="1">Our Location</input><br>
+  <input type="radio" name="location" value="2">Our Service</input>
+  
+
+  <p>Which of our services would you like us to improve?</p>
+  <input type="checkbox" name="Cleanliness" value="1">Cleanliness</input><br>
+  <input type="checkbox" name="Food services" value="2">Food services</input><br>
+  <input type="checkbox" name="Display" value="3">Display</input><br>
+  
+
+<textarea id="comment" rows="4" cols="40">Any Comments or Suggestions</textarea><br>
+<input id="submit" type="submit" value="Submit"></input>
+
+</form>
+</div>
