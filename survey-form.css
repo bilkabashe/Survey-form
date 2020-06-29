@@ -1,0 +1,57 @@
+body {
+  text-align: center; 
+  font-family: Helvetica;
+}
+
+#body {
+  width: 600px;
+  padding: 20px;
+  margin: auto;
+  border-radius: 10px;
+  text-align: left;
+  font-size: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5)
+
+}
+
+#name {
+  width: 560px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#email {
+  width: 560px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#number {
+  width: 560px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#dropdown {
+  width: 560px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#comment {
+  width: 590px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+#submit {
+  width: 590px;
+  padding: 20px;
+  border-radius: 20px;
+  border: none; 
+  margin-top: 3%;
+  color: white;
+  background-color: green; 
+}
